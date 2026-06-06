@@ -895,8 +895,8 @@ export default function App() {
                   </div>
                   <div>
                     <div className="text-[10px] text-slate-500 font-mono uppercase">{t.telegram}</div>
-                    <a href="https://t.me/alsufyev" target="_blank" rel="noreferrer" className="text-sm font-semibold text-white group-hover:text-indigo-400 transition-colors flex items-center gap-1.5">
-                      @alsufyev
+                    <a href="https://t.me/alsufyev99" target="_blank" rel="noreferrer" className="text-sm font-semibold text-white group-hover:text-indigo-400 transition-colors flex items-center gap-1.5">
+                      @alsufyev99
                       <ArrowUpRight className="w-3.5 h-3.5" />
                     </a>
                   </div>
@@ -1206,7 +1206,7 @@ export default function App() {
           </div>
           <div className="flex items-center space-x-6">
             <a href="mailto:alsufyev@gmail.com" className="hover:text-indigo-400 transition-colors">alsufyev@gmail.com</a>
-            <a href="https://t.me/alsufyev" target="_blank" rel="noreferrer" className="hover:text-indigo-400 transition-colors">Telegram</a>
+            <a href="https://t.me/alsufyev99" target="_blank" rel="noreferrer" className="hover:text-indigo-400 transition-colors">Telegram</a>
             <button onClick={() => scrollTo("hero")} className="hover:text-white transition-colors cursor-pointer font-mono">
               {t.backToTop}
             </button>
