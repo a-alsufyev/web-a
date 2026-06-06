@@ -31,7 +31,7 @@ export const projectsDataRU: Project[] = [
     title: "AI Museum (RAG система)",
     description: "Интерактивный цифровой музей, демонстрирующий возможности связки ИИ и семантического поиска. Использует технологию RAG (Retrieval-Augmented Generation) для получения достоверных ответов.",
     longDescription: "Информационно-образовательный проект на базе локальной базы знаний. RAG-архитектура подключается к архивным историческим документам, позволяя виртуальному экскурсоводу цитировать подлинные летописи и исключать дезинформацию (галлюцинации LLM).",
-    url: "http://91.218.141.204:3001/",
+    url: "http://sovauto.su/",
     tags: ["RAG System", "Semantic Search", "EdTech"],
     techStack: ["React.js", "LangChain", "Vector Search (Chroma)", "Gemini SDK", "WebSockets", "Tailwind CSS"]
   }
@@ -152,7 +152,7 @@ export const projectsDataEN: Project[] = [
     title: "AI Museum (RAG System)",
     description: "An interactive educational digital museum demonstrating advanced semantic search. Implements RAG (Retrieval-Augmented Generation) to deliver highly-factual answers from custom archives.",
     longDescription: "An EdTech demo solution driven by structured local knowledge bases. RAG architecture connects historical archives to the LLM agent, allowing a virtual museum guide to quote direct documents while strictly eliminating false info (hallucinations).",
-    url: "http://91.218.141.204:3001/",
+    url: "http://sovauto.su/",
     tags: ["RAG System", "Semantic Search", "EdTech"],
     techStack: ["React.js", "LangChain", "Vector Search (Chroma)", "Gemini SDK", "WebSockets", "Tailwind CSS"]
   }
