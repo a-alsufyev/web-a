@@ -13,7 +13,7 @@ export const projectsDataRU: Project[] = [
     title: "AI CRM для риелторов",
     description: "CRM-система, созданная для автоматизации рутины риелторов. Использует встроенный ИИ для мгновенной обработки входящих заявок, глубокого скоринга клиентов и сопровождения сделок для резкого увеличения конверсии.",
     longDescription: "Высоконагруженное решение для агентств недвижимости. Интеграция больших языковых моделей позволяет автоматически извлекать данные из переписок, формировать точные карточки объектов недвижимости, распределять лиды по свободным агентам и подсказывать лучшие тактики продаж.",
-    url: "http://91.218.141.204:3000/",
+    url: "https://vistarealai.web-a.ru/",
     tags: ["AI CRM", "PropTech", "Sales Automation"],
     techStack: ["React.js", "Express.js", "Node.js", "MongoDB", "OpenAI SDK", "Tailwind CSS"]
   },
@@ -22,7 +22,7 @@ export const projectsDataRU: Project[] = [
     title: "AI Content Maker",
     description: "Многофункциональная платформа для автоматической генерации маркетингового и медиа-контента. Адаптирована под задачи блогеров, авторов соцсетей и продвинутых SMM-агентств.",
     longDescription: "Сервис конструирования текстов, способный выдерживать заданный Tone of Voice (голос бренда). ИИ автоматически формулирует публикации, пишет SEO-оптимизированные лонгриды, планирует посты для Telegram, VK и Instagram, снижая расходы на контент-маркетинг на 70%.",
-    url: "http://91.218.141.204:4000/",
+    url: "https://ai-content-maker.web-a.ru/",
     tags: ["Generative AI", "Content Tech", "SaaS"],
     techStack: ["React.js", "Vite", "FastAPI", "Anthropic Claude API", "PostgreSQL", "Tailwind CSS"]
   },
@@ -134,7 +134,7 @@ export const projectsDataEN: Project[] = [
     title: "AI CRM for Real Estate Agents",
     description: "A specialized CRM system designed to automate the routine tasks of real estate agents. Uses built-in AI for instant lead processing, deep customer scoring, and transaction assistance to boost conversions.",
     longDescription: "A high-performance solution for real estate agencies. Integration of large language models allows automatic extraction of data from chat flows, creation of precise property sheets, fair distribution of hot leads, and real-time generation of custom selling strategies.",
-    url: "http://91.218.141.204:3000/",
+    url: "https://vistarealai.web-a.ru/",
     tags: ["AI CRM", "PropTech", "Sales Automation"],
     techStack: ["React.js", "Express.js", "Node.js", "MongoDB", "OpenAI SDK", "Tailwind CSS"]
   },
@@ -143,7 +143,7 @@ export const projectsDataEN: Project[] = [
     title: "AI Content Maker",
     description: "A multi-functional copy assistant and campaign generator. Automated creation of blogs, social media posts, and marketing materials for SMM agencies and content managers.",
     longDescription: "A powerful content generator designed to output precise texts in a specific brand voice (Tone of Voice). Automatically designs postings, drafts SEO-optimized articles, maps out publication calendars for Telegram, VK, and Instagram, cutting marketing spend by 70%.",
-    url: "http://91.218.141.204:4000/",
+    url: "https://ai-content-maker.web-a.ru/",
     tags: ["Generative AI", "Content Tech", "SaaS"],
     techStack: ["React.js", "Vite", "FastAPI", "Anthropic Claude API", "PostgreSQL", "Tailwind CSS"]
   },
