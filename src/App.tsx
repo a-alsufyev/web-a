@@ -42,7 +42,7 @@ import { AdminPanel } from "./components/AdminPanel";
 
 const translations = {
   ru: {
-    agencySubTitle: "AI DEVELOPMENT AGENCY",
+    agencySubTitle: "ИТ и ИИ как искусство",
     services: "Услуги",
     portfolio: "Портфолио",
     whyMe: "Преимущества",
@@ -53,7 +53,7 @@ const translations = {
     whyUs: "Почему мы",
     contactFormTitle: "Форма обратной связи",
     startProject: "Начать проект",
-    badgeText: "WEB-A • AI & WEB DEVELOPMENT AGENCY",
+    badgeText: "it-agency.art • ИТ и ИИ как искусство",
     visitorNamePlaceholder: "Введите ваше имя...",
     helloVisitor: "Привет",
     contactWithUs: "Связаться с нами",
@@ -77,8 +77,8 @@ const translations = {
     openUrl: "ОТКРЫТЬ",
     hostingStatus: "Состояние хостинга: В сети (Live)",
     whyMePreheading: "Ориентация на развитие и результат",
-    whyMeHeading: "Почему с WEB-A выгодно и надежно работать",
-    whyMeDesc: "Достижение бизнес-целей требует прагматичного подхода. В нашей практике мы объединяем скорость поставки ценности с бескомпромиссным техническим качеством кода.",
+    whyMeHeading: "Почему с IT-AGENCY.ART выгодно и надежно работать",
+    whyMeDesc: "Достижение бизнес-целей требует не просто прагматичного, а эстетически выверенного технического подхода. Мы превращаем разработку ИТ-систем и интеграцию ИИ в настоящее инженерное искусство — создавая быстрые, надежные и изящные решения.",
     cleanCodeWithAI: "Защищенный чистый код с поддержкой от ИИ",
     freeForProjects: "🟢 СВОБОДНЫ ДЛЯ НОВЫХ ПРОЕКТОВ",
     contactHeading: "Связаться прямо сейчас",
@@ -119,14 +119,14 @@ const translations = {
       "rag-system": "Индивидуальная RAG-система",
       "other": "Другая веб-разработка под ключ"
     },
-    rightsReserved: "© 2026 WEB-A AI Portfolio & Business Card • Все права защищены",
+    rightsReserved: "© 2026 IT-AGENCY.ART • ИТ и ИИ как искусство • Все права защищены",
     backToTop: "[вверх ↑]",
     steps: [
       "⚡ Инициализация безопасного TLS соединения с сервером...",
       "🔍 Валидация входных данных на стороне клиента...",
       "🧠 Отправка заявки ИИ-аналитику для оценки сложности...",
       "💾 Подключение к локальной базе данных SQL...",
-      "📝 Запись лида и результатов анализа в базу данных WEB-A...",
+      "📝 Запись лида и результатов анализа в базу данных IT-AGENCY.ART...",
       "🔥 Готово! Заявка успешно сохранена в реляционной БД."
     ],
     requiredFields: {
@@ -138,7 +138,7 @@ const translations = {
     }
   },
   en: {
-    agencySubTitle: "AI DEVELOPMENT AGENCY",
+    agencySubTitle: "IT & AI as an Art Form",
     services: "Services",
     portfolio: "Portfolio",
     whyMe: "Advantages",
@@ -146,10 +146,10 @@ const translations = {
     submitRequest: "SUBMIT REQUEST",
     techCompetences: "Core Competencies",
     portfolioProjects: "Agency Portfolio",
-    whyUs: "Why WEB-A",
+    whyUs: "Why IT-AGENCY.ART",
     contactFormTitle: "Contact Form",
     startProject: "Start Project",
-    badgeText: "WEB-A • AI & WEB DEVELOPMENT AGENCY",
+    badgeText: "it-agency.art • IT & AI as Art",
     visitorNamePlaceholder: "Enter your name...",
     helloVisitor: "Hi",
     contactWithUs: "Get in touch",
@@ -173,8 +173,8 @@ const translations = {
     openUrl: "OPEN LIVE",
     hostingStatus: "Hosting status: Online (Live)",
     whyMePreheading: "Focus on Growth & Output",
-    whyMeHeading: "Why It's Safe & Profitable to Work with WEB-A",
-    whyMeDesc: "Reaching product objectives demands a highly pragmatic path. We align fast deployment cycles with clean, robust code quality.",
+    whyMeHeading: "Why It's Safe & Profitable to Work with IT-AGENCY.ART",
+    whyMeDesc: "Achieving product objectives demands more than just pragmatism — it requires cohesive technical elegance. We elevate software development and AI integration into a true digital art form, crafting fast, beautiful, and flawless product architectures.",
     cleanCodeWithAI: "Production-ready code backed by AI feedback",
     freeForProjects: "🟢 OPEN FOR NEW VENTURES",
     contactHeading: "Let's Start Your Project",
@@ -215,14 +215,14 @@ const translations = {
       "rag-system": "Proprietary RAG System",
       "other": "Custom Full-Stack Web App"
     },
-    rightsReserved: "© 2026 WEB-A AI Portfolio & Business Card • All rights reserved",
+    rightsReserved: "© 2026 IT-AGENCY.ART • IT & AI as Art • All rights reserved",
     backToTop: "[back to top ↑]",
     steps: [
       "⚡ Initializing secure TLS connection with the gateway...",
       "🔍 Reviewing client inputs for syntax accuracy...",
       "🧠 Transferring brief to deep AI analyzer core...",
       "💾 Initializing session with SQLite database instance...",
-      "📝 Committing lead data and analysis to database tables...",
+      "📝 Committing lead data and analysis to IT-AGENCY.ART database tables...",
       "🔥 Success! Lead successfully committed to relational SQL database."
     ],
     requiredFields: {
@@ -434,8 +434,8 @@ export default function App() {
               <Code2 className="w-4 h-4 text-indigo-400" />
             </div>
             <div>
-              <span className="font-display font-bold text-lg tracking-tight text-white">WEB-A</span>
-              <span className="text-[10px] block text-indigo-400/80 font-mono tracking-wider">// {t.agencySubTitle}</span>
+              <span className="font-display font-bold text-lg tracking-tight text-white">it-agency<span className="text-indigo-400 font-normal">.art</span></span>
+              <span className="text-[9px] block text-indigo-400/80 font-mono tracking-wider leading-none mt-0.5">// {t.agencySubTitle}</span>
             </div>
           </div>
 
@@ -583,9 +583,9 @@ export default function App() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="font-display text-5xl sm:text-7xl md:text-8xl font-black tracking-tight text-white leading-none bg-gradient-to-b from-white to-slate-300 bg-clip-text text-transparent"
+              className="font-display text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold tracking-tight text-white leading-none lowercase"
             >
-              WEB-A
+              it-agency<span className="text-indigo-400 font-light">.art</span>
             </motion.h1>
 
             {/* Elevator pitch */}
@@ -1201,7 +1201,7 @@ export default function App() {
       <footer className="bg-slate-950 border-t border-slate-900 py-12 px-4 select-none">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6 text-2xs sm:text-xs text-slate-500">
           <div className="text-center sm:text-left">
-            <div className="font-display font-bold text-slate-300 text-sm">WEB-A</div>
+            <div className="font-display font-semibold text-slate-300 text-sm">it-agency<span className="text-indigo-400 font-normal">.art</span></div>
             <p className="mt-1">{t.rightsReserved}</p>
           </div>
           <div className="flex items-center space-x-6">

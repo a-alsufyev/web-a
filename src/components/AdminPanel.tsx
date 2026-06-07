@@ -27,7 +27,7 @@ import { LeadSubmission } from "../types";
 // Translation dictionary for Admin Panel
 const adminTranslations = {
   ru: {
-    adminTitle: "WEB-A Панель Администрирования",
+    adminTitle: "it-agency.art • Панель Администрирования",
     secureLogin: "Безопасный вход в систему",
     username: "Имя пользователя",
     password: "Пароль",
@@ -63,7 +63,7 @@ const adminTranslations = {
     leadId: "ID Заявки"
   },
   en: {
-    adminTitle: "WEB-A Administration Console",
+    adminTitle: "it-agency.art • Administration Console",
     secureLogin: "Secure System Authentication",
     username: "Username",
     password: "Password",
