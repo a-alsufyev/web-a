@@ -34,6 +34,15 @@ export const projectsDataRU: Project[] = [
     url: "https://sovauto.su/",
     tags: ["RAG System", "Semantic Search", "EdTech"],
     techStack: ["React.js", "LangChain", "Vector Search (Chroma)", "Gemini SDK", "WebSockets", "Tailwind CSS"]
+  },
+  {
+    id: "project-4",
+    title: "ИИ-Психоаналитик Карл Юнг",
+    description: "Интерактивный собеседник на стыке психологии и ИИ, моделирующий аналитический подход Карла Густава Юнга для подробного исследования архетипов личности и глубинных мотивов.",
+    longDescription: "Философско-психологический ИИ-собеседник, обученный методологии К. Г. Юнга. Система использует тонкую инженерию промптов и контекстный анализ для мягкого ведения диалога, интерпретации символов, сновидений и разбора личных архетипов индивида, выступая ярким примером 'ИТ и ИИ как искусства'.",
+    url: "https://carl-jung.web-a.ru/",
+    tags: ["Cognitive AI", "UX Art", "LLM Fine-Tuning"],
+    techStack: ["React.js", "Node.js", "Gemini API", "Tailwind CSS", "Vite", "Framer Motion"]
   }
 ];
 
@@ -155,6 +164,15 @@ export const projectsDataEN: Project[] = [
     url: "https://sovauto.su/",
     tags: ["RAG System", "Semantic Search", "EdTech"],
     techStack: ["React.js", "LangChain", "Vector Search (Chroma)", "Gemini SDK", "WebSockets", "Tailwind CSS"]
+  },
+  {
+    id: "project-4",
+    title: "AI Psychoanalyst Carl Jung",
+    description: "An interactive dialogue system crossing psychology and AI, modeling Carl Jung's analytical methods to explore personality archetypes and deep unconscious drives.",
+    longDescription: "A philosophical and cognitive AI companion trained in C. G. Jung's analytical psychology. Utilizing complex prompt engineering and contextual memory, the system guides users through dialogical self-reflection, dream interpretation, and archetype analysis — a prime exhibit of 'IT & AI as an Art Form'.",
+    url: "https://carl-jung.web-a.ru/",
+    tags: ["Cognitive AI", "UX Art", "LLM Fine-Tuning"],
+    techStack: ["React.js", "Node.js", "Gemini API", "Tailwind CSS", "Vite", "Framer Motion"]
   }
 ];
 
